@@ -1,5 +1,6 @@
 # vue3-ts-demo
 
+这是一个前端的 PC 的后台管理系统项目，配套的后端代码：https://github.com/mygoes/koa2-project
 This template should help get you started developing with Vue 3 in Vite.
 
 ## Recommended IDE Setup
