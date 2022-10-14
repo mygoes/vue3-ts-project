@@ -1,4 +1,4 @@
-这是一个主要用 vue3 + ts + element-plus 写成的前端 PC 后台管理系统项目，配套的后端代码：https://github.com/mygoes/koa2-project，项目的展示地址：http://superman666.com
+这是一个主要用 vue3 + ts + element-plus 写成的前端 PC 后台管理系统项目，配套的后端代码：https://github.com/mygoes/koa2-project ，项目的展示地址：http://superman666.com
 
 # vue3-ts-demo
 
