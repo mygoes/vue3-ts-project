@@ -126,7 +126,7 @@ router.beforeEach((to, from, next) => {
   systemStore.setPageRouter(to.fullPath); // 存储当前路由到 Pinia
 
   if (to.meta.title) {
-    document.title = `开发助手--${to.meta.title}`;
+    document.title = `顶级的知识--${to.meta.title}`;
   }
 
   next();

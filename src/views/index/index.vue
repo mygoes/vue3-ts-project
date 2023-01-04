@@ -10,7 +10,7 @@
           >
             <Operation />
           </el-icon>
-          <span class="title">开发助手</span>
+          <span class="title">顶级的知识</span>
         </div>
         <!-- 文本谈入谈出 -->
         <span class="textAnimate" v-if="showText">
@@ -95,6 +95,11 @@
         </el-main>
       </el-container>
     </el-container>
+    <div class="filing">
+      <a href="https://beian.miit.gov.cn/" target="_blank" class="file">
+        备案号：粤ICP备2022103596号-1
+      </a>
+    </div>
   </div>
 </template>
 
@@ -325,6 +330,21 @@ onMounted(() => {
 
   .main {
     background-color: #e8e9ec;
+  }
+}
+
+.filing {
+  width: 100%;
+  .file {
+    width: 100%;
+    color: #73777a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    &:hover {
+      color: #409eff;
+    }
   }
 }
 
